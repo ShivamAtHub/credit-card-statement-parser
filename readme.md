@@ -60,7 +60,7 @@ credit-card-parser/
 
 ### Clone the repository
 ```
-git clone <repository-url>
+git clone https://github.com/ShivamAtHub/credit-card-statement-parser.git
 cd credit-card-parser
 ```
 
@@ -118,19 +118,6 @@ The backend extracts text from the PDF and applies regex-based pattern matching 
   "dueDate": "20 Nov 2024",
   "totalAmountDue": "₹14,590.00"
 }
-```
-
----
-
-## .gitignore (recommended)
-
-```
-frontend/node_modules/
-backend/node_modules/
-backend/uploads/
-sample_statements/
-*.pdf
-.env
 ```
 
 ---
