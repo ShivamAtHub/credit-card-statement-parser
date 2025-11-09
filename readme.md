@@ -43,7 +43,6 @@ credit-card-parser/
 │   ├── server.js                  # Express server, PDF upload endpoint
 │   ├── parsers/
 │   │   └── pdfParser.js           # PDF extraction and regex logic
-│   ├── uploads/                   # Temporary PDF upload directory (gitignored)
 │   ├── package.json
 │
 └── frontend/
@@ -52,8 +51,6 @@ credit-card-parser/
     │   ├── main.jsx
     │   ├── components/
     │   │   └── FileUpload.jsx     # Frontend upload UI
-    │   └── styles/
-    │       └── index.css          # Tailwind styles
     ├── package.json
 ```
 
